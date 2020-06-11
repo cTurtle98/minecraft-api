@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## v1.0.5
+
+* fix typo in variable declaration
+
+## v1.0.4
+
+* fix typo in app.run
+
 ## v1.0.3
 
 * fix typo in whitelist method
