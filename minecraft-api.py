@@ -2,7 +2,7 @@
 Minecraft API
 By Ciaran Farley ciaran@cturtle98.com
 
-Version 1.0.0
+Version 1.0.1
 
 main file
 """
@@ -34,7 +34,7 @@ def whitelist_add():
 	# get the minecraft username from the request
 	uname = request.args.get('u')
 
-	os.system("screen -S " + SCREEN_NAME + " -X stuff 'whitelist add " + uname + "\015")
+	os.system("screen -S " + SCREEN_NAME + " -X stuff \'whitelist add " + uname + "\015\'")
 
 # run flask
 @app.run()
