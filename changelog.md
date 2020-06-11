@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v1.0.8
+
+* change whitelist return
+
 ## v1.0.7
 
 * add host to app run
