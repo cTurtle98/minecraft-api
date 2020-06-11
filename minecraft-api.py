@@ -19,7 +19,7 @@ SCREEN_NAME = minecraft
 app = Flask(__name__)
 
 #enable flask debug
-app.config["DEBUG"]
+app.config["DEBUG"] = True
 
 @app.route('/')
 def home():
@@ -37,4 +37,4 @@ def whitelist_add():
 	os.system("screen -S " + SCREEN_NAME + " -X stuff \'whitelist add " + uname + "\015\'")
 
 # run flask
-@app.run()
+@app.run(port=8080)
