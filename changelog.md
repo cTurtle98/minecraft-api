@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## v1.0.6
+
+* add debig printout for whitelist
+* add GET as valid route
+
 ## v1.0.5
 
 * fix typo in variable declaration
