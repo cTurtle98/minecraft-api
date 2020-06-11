@@ -2,7 +2,7 @@
 Minecraft API
 By Ciaran Farley ciaran@cturtle98.com
 
-Version 1.0.1
+Version 1.0.3
 
 main file
 """
@@ -28,7 +28,7 @@ def home():
 	see https://github.com/cTurtle98/minecraft-api
 	'''
 
-@app.route('/whitelist/add/' methods=['POST'])
+@app.route('/whitelist/add/', methods=['POST'])
 def whitelist_add():
 
 	# get the minecraft username from the request
