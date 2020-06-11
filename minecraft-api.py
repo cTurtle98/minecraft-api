@@ -2,7 +2,7 @@
 Minecraft API
 By Ciaran Farley ciaran@cturtle98.com
 
-Version 1.0.7
+Version 1.0.8
 
 main file
 """
@@ -41,7 +41,7 @@ def whitelist_add():
 	os.system("screen -S " + SCREEN_NAME + " -X stuff \'whitelist add " + uname + "\015\'")
 	
 	#return ok
-	return 200
+	return(uname + " has been added to the whitelist")
 
 # run flask
 app.run(host= '0.0.0.0', port=8080)
