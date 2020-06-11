@@ -2,7 +2,7 @@
 Minecraft API
 By Ciaran Farley ciaran@cturtle98.com
 
-Version 1.0.6
+Version 1.0.7
 
 main file
 """
@@ -44,4 +44,4 @@ def whitelist_add():
 	return 200
 
 # run flask
-app.run(port=8080)
+app.run(host= '0.0.0.0', port=8080)
