@@ -2,7 +2,7 @@
 Minecraft API
 By Ciaran Farley ciaran@cturtle98.com
 
-Version 1.0.4
+Version 1.0.5
 
 main file
 """
@@ -13,7 +13,7 @@ from flask import request
 import os
 
 #vars
-SCREEN_NAME = minecraft
+SCREEN_NAME = "minecraft"
 
 #setup flask
 app = Flask(__name__)
