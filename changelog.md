@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v1.0.3
+
+* fix typo in whitelist method
+
 ## v1.0.2
 
 * fix debug tag typo
