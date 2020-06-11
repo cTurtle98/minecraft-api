@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v1.0.7
+
+* add host to app run
+
 ## v1.0.6
 
 * add debig printout for whitelist
